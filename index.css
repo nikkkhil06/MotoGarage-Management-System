@@ -5,6 +5,85 @@
 body{
     background-color: #0A0A0A;
 }
+.documents{
+    position: fixed;
+    bottom: 25%;
+    width: 100%;
+    height: auto;
+}
+.document-title{
+
+}
+.doc-main-cont{
+    height: 90px;
+    width: 100%;
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.doc-cont{
+    background-color: #111827;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+.doc-cont svg{
+    color: lightgreen;
+    font-size: 20px;
+}
+.doc-info-box{
+    
+}
+.doc-cont-title{
+    font-weight: 100;
+    font-size: small;
+    line-height: 1.5;
+}
+.doc-cont1-detail{
+    font-weight: 100;
+    font-size: x-small;
+    color: #bdc4d1;
+    line-height: 1.3;
+    margin-top: 7%;
+}
+.doc-cont1-status{
+    font-size: smaller;
+    color: lightgreen;
+}
+ul{
+    margin-top: 7%;
+}
+.doc-status::marker{
+    list-style-type: disc;
+    color: lightgreen;
+}
+.doc-cont2-detail{
+    font-weight: 100;
+    font-size: x-small;
+    color: #bdc4d1;
+    line-height: 1.3;
+    margin-top: 7%;
+}
+.doc-cont2-status{
+    font-size: smaller;
+    color: lightgreen;
+}
+.doc-cont3-detail{
+    font-weight: 100;
+    font-size: x-small;
+    color: #bdc4d1;
+    line-height: 1.3;
+    margin-top: 7%;
+}
+.doc-cont3-status{
+    font-size: smaller;
+    color: lightgreen;
+}
 .quick-action{
     position: fixed;
     bottom: 11%;
@@ -15,6 +94,7 @@ body{
     font-weight: 100;
     padding: 5px;
     letter-spacing: 1px;
+    font-size: small;
 }
 .quick-actions-main-cont{
     color: white;
