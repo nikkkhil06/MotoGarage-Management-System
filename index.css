@@ -5,20 +5,32 @@
 body{
     background-color: #0A0A0A;
 }
+header{
+    height: auto;
+    width: 100%;
+}
 .title{
     color: white;
-    font-family: math;
+    font-family: fantasy;
     letter-spacing: 1px;
+    font-weight: lighter;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 .welcome-tag{
     color: #FF7A1A;
     text-align: center;
-    line-height: 1.5;
+    font-family: system-ui;
 }
 .username{
     color: white;
+}
+.slogan{
+    color: #bdc4d1;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: small;
 }
 .title2{
     color: #FF7A1A;
@@ -26,7 +38,7 @@ body{
 .garage-overview{
     color: whitesmoke;
     position: fixed;
-    top: 18%;
+    top: 15%;
     height: auto;
     width: 100%;
 }
@@ -69,7 +81,7 @@ body{
     border-radius: 5px;
     padding: 15px;
     position: fixed;
-    top: 39%;
+    top: 36.5%;
 }
 .service-title{
     color: #FF7A1A;
@@ -99,7 +111,7 @@ body{
 }
 .documents{
     position: fixed;
-    bottom: 25%;
+    bottom: 27%;
     width: 100%;
     height: auto;
 }
@@ -190,7 +202,7 @@ ul{
 }
 .quick-actions-main-cont{
     color: white;
-    height: 60px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
