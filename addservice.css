@@ -17,3 +17,16 @@ header{
 header span{
     color: #FF7A1A;
 }
+button{
+    height: 40px;
+    width: 250px;
+    background-color: #FF7A1A;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #1A1A1A;
+    font-size: smaller;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
