@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0A0A0A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+}
+header{
+    margin-top: 2%;
+}
+.title{
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+span{
+    color: #ff7A1A;
+}
+.subtitle{
+    color: #bdc4d1;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: small;
+}
+.card-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bike-card{
+    height: 100px;
+    width: 90%;
+    background-color: #111827;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bike-card:hover{
+    transform: scale(1.02);
+    border:1px solid #FF7A1A;
+    transition:.2s;
+    cursor:pointer;
+}
+.bike-card svg{
+    font-size: larger;
+}
+.bike-card .chevron svg{
+    color: #FF7A1A;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bike-name{
+    color: #E5E7EB;
+    font-size: large;
+    font-weight: bold;
+}
+.bike-no{
+    color: #1A1A1A;
+    font-size: small;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    border-radius: 3px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.current-reading{
+    color: #ff7a1a;
+    font-size: medium;
+    font-weight: lighter;
+}
+.current-reading svg{
+    color: white;
+}
+.message{
+    height:30px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px dashed #bdc4c1;
+    border-radius: 5px;
+    padding: 5px;
+}
+.message svg{
+    color: #ff7A1A;
+    font-size: larger;
+}
+.message1{
+    font-size: small;
+    font-weight: 100;
+}
