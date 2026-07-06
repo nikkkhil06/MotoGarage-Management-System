@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="addbike.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/418eadce47.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">ADD <span>BIKE</span></h1>
+            <h5 class="subtitle">Save your bike details to start managing Motogarage</h5>
+        </header>
+        <form>
+            <div class="info-container">
+            <h6>BIKE INFORMATION</h6>
+            <div class="input-card">
+                <i class="fa-solid fa-motorcycle"></i> 
+                <section class="info">
+                    <label>Bike Name</label><br>
+                    <input type="text" required>
+                </section>
+            </div>
+            <div class="input-card">
+                <i class="fa-regular fa-building"></i>
+                <section class="info">
+                    <label>Brand Name</label><br>
+                    <input type="text" required>
+                </section>
+            </div>
+            <div class="input-card">
+                <i class="fa-solid fa-gear"></i>
+                <section class="info">
+                    <label>Cubic Capacity (CC)</label><br>
+                    <input type="number" required>
+                </section>
+            </div>
+            <div class="input-card">
+                <i class="fa-solid fa-droplet"></i>
+                <section class="info">
+                    <label>Fuel type</label><br>
+                    <select>
+                        <option>--Select--</option>
+                        <option>Petrol</option>
+                        <option>Diesel</option>
+                        <option>Electric</option>
+                    </select>
+                </section>
+            </div>
+            <div class="input-card">
+                <i class="fa-solid fa-paint-roller"></i>
+                <section class="info">
+                    <label>Color</label><br>
+                    <input type="text" required>
+                </section>
+            </div>
+            <div class="input-card">
+                <i class="fa-regular fa-address-card"></i>
+                <section class="info">
+                    <label>Registration Number</label><br>
+                    <input type="text" required>
+                </section>
+            </div>
+            </div>
+            <!--service information-->
+            <div class="info-container2">
+            <h6>SERVICE INFORMATION</h6>
+            <div class="input-card2">
+                <i class="fa-solid fa-gauge"></i>
+                <section class="info">
+                    <label>Current Odometer (KM)</label><br>
+                    <input class="input2" type="number" required>
+                </section>
+            </div>
+            <div class="input-card2">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <section class="info">
+                    <label>Last Service (KM)</label><br>
+                    <input class="input2" type="number" required>
+                </section>
+            </div>
+            <div class="input-card2">
+                <i class="fa-regular fa-calendar"></i>
+                <section class="info">
+                    <label>Last Service Date</label><br>
+                    <input class="input2" type="date" required>
+                </section>
+            </div>
+            <div class="input-card2">
+                <i class="fa-regular fa-clock"></i>
+                <section class="info">
+                    <label>Next Service Due (KM)</label><br>
+                    <input class="input2" type="number" required>
+                </section>
+            </div>
+            </div>
+           <button type="submit"> ADD BIKE</button>
+        </form>
+    </body>
+</html>
