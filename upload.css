@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#0A0A0A ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header{
+    font-size: small;
+    text-align: center;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-top: 2%;
+    color: white;
+}
+header span{
+    color: #FF7A1A;
+}
+h4{
+    font-family: system-ui;
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+.subtitle{
+    color: #bdc4d1;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: small;
+    letter-spacing: 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    height: 80%;
+    width: 100%;
+}
+.upload{
+    height: 80%;
+    width: 80%;
+    border: 1px dashed;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1A1A1A;
+    gap: 5px;
+    letter-spacing: 0.2px;
+}
+.upload h5{
+    margin: 0;
+}
+h6{
+    color: #bdc4d1;
+}
+.upload-cont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.camera,.bill{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.camera svg{
+    color: #FF7A1A;
+    font-size: larger;
+}
+h5{
+    margin-top: 5%;
+}
+.bill svg{
+    color: rebeccapurple;
+    font-size: larger;
+}
+button{
+    height: 50px;
+    width: 250px;
+    background-color: #FF7A1A;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #1A1A1A;
+    font-size: smaller;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 12px rgba(255,122,26,.4);
+}
