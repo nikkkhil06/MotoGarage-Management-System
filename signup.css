@@ -51,7 +51,7 @@ input{
     gap: 5px;
     color: white;
 }
-.submit{
+button{
     height: 50px;
     width: 100%;
     background-color: #FF7A1A;
@@ -65,7 +65,7 @@ input{
     cursor: pointer;
     margin-top: 4%;
 }
-.submit:hover{
+button:hover{
     transform: scale(1.02);
     box-shadow: 0 0 12px rgba(255,122,26,.4);
 }
